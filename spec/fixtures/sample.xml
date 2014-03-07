@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.simobil.si/xml/Si.mobil_eSpecification_v1.3.xslt"?>
+<Specifikacija xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.simobil.si/xml/BillSpecification_v2.4.xsd">
+  <Klicane_St.>
+    <Zapis>
+      <Datum>12.11.</Datum>
+      <Ura>13:14</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:24</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>18:23</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>86,19MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>13.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>92,40MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>14.11.</Datum>
+      <Ura>00:47</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>733,95KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>14.11.</Datum>
+      <Ura>13:22</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>5,99MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>14.11.</Datum>
+      <Ura>13:46</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:49</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>07:45</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>37,04MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>14:41</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>37,07MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>17:38</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>209,80MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>17:50</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:04:16</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>18:19</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:29</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>19:16</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>286,74KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>15.11.</Datum>
+      <Ura>20:36</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>24,67MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>16.11.</Datum>
+      <Ura>02:15</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>88,43KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>16.11.</Datum>
+      <Ura>09:45</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>82,58KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>16.11.</Datum>
+      <Ura>09:51</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>81,82KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>16.11.</Datum>
+      <Ura>09:57</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>10,29MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>17.11.</Datum>
+      <Ura>01:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>6,17MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>17.11.</Datum>
+      <Ura>15:10</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>363,63KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>17.11.</Datum>
+      <Ura>18:02</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:08</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>17.11.</Datum>
+      <Ura>18:13</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>83,63KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>17.11.</Datum>
+      <Ura>20:06</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>319,89KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>18.11.</Datum>
+      <Ura>04:30</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>1,29MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>18.11.</Datum>
+      <Ura>09:11</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>18.11.</Datum>
+      <Ura>13:30</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>4,82MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>18.11.</Datum>
+      <Ura>17:56</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>103,05MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>18.11.</Datum>
+      <Ura>19:12</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:15</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>19.11.</Datum>
+      <Ura>08:30</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>3,79MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>19.11.</Datum>
+      <Ura>09:15</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>3,62MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>20.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>6,94MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>20.11.</Datum>
+      <Ura>12:52</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>18,18MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>21.11.</Datum>
+      <Ura>11:32</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>031862XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>21.11.</Datum>
+      <Ura>13:41</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>133,77MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>22.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>97,58MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>23.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>17,29MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>23.11.</Datum>
+      <Ura>09:15</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:06</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>23.11.</Datum>
+      <Ura>19:09</Ura>
+      <Opis>Klic v stacionarno omr.</Opis>
+      <Stevilka>059010XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:36</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>23.11.</Datum>
+      <Ura>19:33</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:41</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>24.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>2,19MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>24.11.</Datum>
+      <Ura>20:54</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:26</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>25.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>4,68MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>25.11.</Datum>
+      <Ura>10:12</Ura>
+      <Opis>Klic v stacionarno omr.</Opis>
+      <Stevilka>059039XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:33</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>25.11.</Datum>
+      <Ura>11:02</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041529XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:48</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>25.11.</Datum>
+      <Ura>12:05</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>1,78MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>25.11.</Datum>
+      <Ura>14:28</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>5,36MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>25.11.</Datum>
+      <Ura>18:23</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:06</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>22,94MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>08:02</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:12</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>08:34</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>08:40</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>08:40</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>17:04</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>17:55</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>36,52MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>26.11.</Datum>
+      <Ura>21:27</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>4,54MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>09:04</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>09:31</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>10:03</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>10:06</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>10:12</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>33,95MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>10:15</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>14:30</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>16:38</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:03:06</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>17:34</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:33</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>19:08</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:46</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>19:34</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041529XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:09</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>20:30</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:07</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>21:48</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>24,39MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>27.11.</Datum>
+      <Ura>22:41</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>26,24MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>28.11.</Datum>
+      <Ura>00:18</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>88,84MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>28.11.</Datum>
+      <Ura>09:16</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041529XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:40</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>18,14MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>09:57</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>19,62MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>10:52</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:05:39</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>11:06</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041529XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:53</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>11:08</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:10</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>14:10</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>14:11</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>17:05</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:24</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>29.11.</Datum>
+      <Ura>17:38</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:22</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>30.11.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>790,92KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>30.11.</Datum>
+      <Ura>10:20</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>1,16MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>30.11.</Datum>
+      <Ura>18:05</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:23</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>30.11.</Datum>
+      <Ura>19:14</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>16,28KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>30.11.</Datum>
+      <Ura>19:17</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>9,82MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>01.12.</Datum>
+      <Ura>00:15</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>5,14MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>01.12.</Datum>
+      <Ura>09:39</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041267XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:01:08</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>01.12.</Datum>
+      <Ura>15:21</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>23,73KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>01.12.</Datum>
+      <Ura>15:35</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>41,17MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>01.12.</Datum>
+      <Ura>17:35</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:09</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>02.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>30,07MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>02.12.</Datum>
+      <Ura>08:42</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:18</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>02.12.</Datum>
+      <Ura>13:31</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>02.12.</Datum>
+      <Ura>14:12</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>02.12.</Datum>
+      <Ura>16:03</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:01:38</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>02.12.</Datum>
+      <Ura>19:20</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:07</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>03.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>406,19KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>03.12.</Datum>
+      <Ura>14:49</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041580XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:04:11</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>03.12.</Datum>
+      <Ura>15:27</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>27,82MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>29,98MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>08:36</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>031368XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>10:26</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>113,39MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>10:53</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>031368XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>14:21</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:28</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>14:45</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:11</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>15:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>3,22MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>15:55</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>711,59KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>04.12.</Datum>
+      <Ura>16:11</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>62,04MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>05.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>43,41MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>05.12.</Datum>
+      <Ura>10:45</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>05.12.</Datum>
+      <Ura>21:02</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:12</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>06.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>929,23KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>06.12.</Datum>
+      <Ura>11:26</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>32,28MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>06.12.</Datum>
+      <Ura>18:54</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:48</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>07.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>50,32MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>07.12.</Datum>
+      <Ura>16:04</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:17</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>07.12.</Datum>
+      <Ura>21:32</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:01:18</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>08.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>957,27KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>08.12.</Datum>
+      <Ura>09:36</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:37</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>08.12.</Datum>
+      <Ura>14:45</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>525,68KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>08.12.</Datum>
+      <Ura>20:48</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>337,06KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>09.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>848,55KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>09.12.</Datum>
+      <Ura>11:13</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>27,21MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>09.12.</Datum>
+      <Ura>15:23</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041379XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:16</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>09.12.</Datum>
+      <Ura>17:38</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:01:55</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>09.12.</Datum>
+      <Ura>21:32</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>73,03KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>10.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>237,18KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>10.12.</Datum>
+      <Ura>09:37</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>1,38MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>10.12.</Datum>
+      <Ura>20:16</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>960,17KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>10.12.</Datum>
+      <Ura>20:20</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:15</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>10.12.</Datum>
+      <Ura>20:34</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041581XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:16</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>11.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>5,09MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>11.12.</Datum>
+      <Ura>16:57</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>389,63KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>11.12.</Datum>
+      <Ura>17:51</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>863,45KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>11.12.</Datum>
+      <Ura>17:55</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:27</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>11.12.</Datum>
+      <Ura>19:06</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>110,98KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>11.12.</Datum>
+      <Ura>20:45</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>110,26KB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>07:48</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>89,50MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>14:23</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041379XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>14:25</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>041379XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>18:31</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>040353XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:01:51</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>18:34</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:21</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>19:40</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041946XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:11</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>12.12.</Datum>
+      <Ura>20:08</Ura>
+      <Opis>Klic v omrežje Si.mobil</Opis>
+      <Stevilka>041509XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:38</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>13.12.</Datum>
+      <Ura>00:00</Ura>
+      <Opis>Prenos podatkov</Opis>
+      <Stevilka>INTERNET.SIMOBIL.SI</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>41,28MB</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>13.12.</Datum>
+      <Ura>16:18</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>13.12.</Datum>
+      <Ura>16:18</Ura>
+      <Opis>SMS sporočilo</Opis>
+      <Stevilka>040558XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:00</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+    <Zapis>
+      <Datum>13.12.</Datum>
+      <Ura>21:26</Ura>
+      <Opis>Klic v drugo mobilno omr.</Opis>
+      <Stevilka>041960XXX</Stevilka>
+      <Operater>SVNSM</Operater>
+      <Trajanje>00:00:18</Trajanje>
+      <EUR>0.0000</EUR>
+    </Zapis>
+  </Klicane_St.>
+</Specifikacija>

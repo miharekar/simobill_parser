@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'simobill_parser/bill'
 
 module SimobillParser
   describe Bill do

@@ -1,2 +1,2 @@
-require './app/simobill'
+require './simobill'
 run Simobill.new

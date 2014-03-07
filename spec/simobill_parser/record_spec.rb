@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'simobill_parser/record'
 
 module SimobillParser
   describe Record do

@@ -1,5 +1,6 @@
 require 'bigdecimal'
 require 'nokogiri'
+require 'filesize'
 require_relative 'record'
 
 module SimobillParser
@@ -12,6 +13,10 @@ module SimobillParser
       @records ||= parse_records
     end
 
+    def types
+      @types ||= records.map(&:description).uniq
+    end
+
     def filter(type)
       records.select{ |r| r.description == type }
     end
@@ -21,8 +26,34 @@ module SimobillParser
     end
 
     def duration(type)
-      s = filter(type).inject(0) { |sum, r| sum + seconds_from_duration(r.duration)}
+      s = filter(type).inject(0) { |sum, r| sum + seconds_from_duration(r.duration) }
       Time.at(s).utc.strftime('%H:%M:%S')
+    end
+
+    def billable_duration(type)
+      s = filter(type).inject(0) do |sum, r|
+        d = r.duration.split(':').map(&:to_i)
+        if d[2] > 0
+          d[1] += 1
+          d[2] = 0
+        end
+        sum + seconds_from_duration(d.join(':'))
+      end
+      Time.at(s).utc.strftime('%H:%M:%S')
+    end
+
+    def transfers(type)
+      filter(type).inject(0) do |sum, r|
+        sum + Filesize.from(r.duration.gsub(',', '.'))
+      end.pretty
+    end
+
+    def billable_transfers(type)
+      filter(type).inject(0) do |sum, r|
+        s = r.duration.gsub(',', '.').scan(/([\d\.]+)(\w+)/)[0]
+        s[0] = (s[0].to_f / 10).ceil * 10
+        sum + Filesize.from(s.join())
+      end.pretty
     end
 
     private
@@ -31,7 +62,7 @@ module SimobillParser
     end
 
     def seconds_from_duration(duration)
-      Time.parse(duration).to_i - Time.parse('00:00:00').to_i 
+      Time.parse(duration).to_i - Time.parse('00:00:00').to_i
     end
   end
 end

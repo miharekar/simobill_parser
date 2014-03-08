@@ -4,6 +4,7 @@ gem 'rake'
 gem 'sinatra'
 gem 'nokogiri', '~> 1.6'
 gem 'haml'
+gem 'filesize'
 
 group :test, :development do
   gem 'pry'

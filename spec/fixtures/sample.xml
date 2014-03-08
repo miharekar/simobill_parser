@@ -360,7 +360,7 @@
       <Stevilka>041946XXX</Stevilka>
       <Operater>SVNSM</Operater>
       <Trajanje>00:00:26</Trajanje>
-      <EUR>0.0000</EUR>
+      <EUR>0.0010</EUR>
     </Zapis>
     <Zapis>
       <Datum>25.11.</Datum>
@@ -1169,7 +1169,7 @@
       <Opis>Klic v drugo mobilno omr.</Opis>
       <Stevilka>041946XXX</Stevilka>
       <Operater>SVNSM</Operater>
-      <Trajanje>00:00:15</Trajanje>
+      <Trajanje>10:50:15</Trajanje>
       <EUR>0.0000</EUR>
     </Zapis>
     <Zapis>
@@ -1287,7 +1287,7 @@
       <Stevilka>041946XXX</Stevilka>
       <Operater>SVNSM</Operater>
       <Trajanje>00:00:11</Trajanje>
-      <EUR>0.0000</EUR>
+      <EUR>0.0003</EUR>
     </Zapis>
     <Zapis>
       <Datum>12.12.</Datum>
@@ -1331,8 +1331,8 @@
       <Opis>Klic v drugo mobilno omr.</Opis>
       <Stevilka>041960XXX</Stevilka>
       <Operater>SVNSM</Operater>
-      <Trajanje>00:00:18</Trajanje>
-      <EUR>0.0000</EUR>
+      <Trajanje>03:00:30</Trajanje>
+      <EUR>0.5000</EUR>
     </Zapis>
   </Klicane_St.>
 </Specifikacija>

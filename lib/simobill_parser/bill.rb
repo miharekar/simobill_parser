@@ -32,28 +32,21 @@ module SimobillParser
 
     def billable_duration(type)
       s = filter(type).inject(0) do |sum, r|
-        d = r.duration.split(':').map(&:to_i)
-        if d[2] > 0
-          d[1] += 1
-          d[2] = 0
-        end
-        sum + seconds_from_duration(d.join(':'))
+        sum + seconds_from_duration(get_billable_duration(r.duration))
       end
       Time.at(s).utc.strftime('%H:%M:%S')
     end
 
-    def transfers(type)
+    def transfers_size(type)
       filter(type).inject(0) do |sum, r|
         sum + Filesize.from(r.duration.gsub(',', '.'))
-      end.pretty
+      end
     end
 
-    def billable_transfers(type)
+    def billable_transfers_size(type)
       filter(type).inject(0) do |sum, r|
-        s = r.duration.gsub(',', '.').scan(/([\d\.]+)(\w+)/)[0]
-        s[0] = (s[0].to_f / 10).ceil * 10
-        sum + Filesize.from(s.join())
-      end.pretty
+        sum + Filesize.from(get_billable_transfer_size(r.duration))
+      end
     end
 
     private
@@ -63,6 +56,23 @@ module SimobillParser
 
     def seconds_from_duration(duration)
       Time.parse(duration).to_i - Time.parse('00:00:00').to_i
+    end
+
+    # billable interval is 60/60
+    def get_billable_duration(duration)
+      d = duration.split(':').map(&:to_i)
+      if d[2] > 0
+        d[1] += 1
+        d[2] = 0
+      end
+      d.join(':')
+    end
+
+    # billable interval is 10kB
+    def get_billable_transfer_size(transfer)
+      kb = Filesize.from(transfer.gsub(',', '.')).to_f('KB')
+      kb = (kb / 10).ceil * 10
+      "#{kb}KB"
     end
   end
 end

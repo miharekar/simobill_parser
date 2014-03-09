@@ -15,39 +15,9 @@ module SimobillParser
       bill.types.sort.must_equal ['Klic v drugo mobilno omr.', 'Klic v omrežje Si.mobil', 'Klic v stacionarno omr.', 'Prenos podatkov', 'SMS sporočilo']
     end
 
-    describe 'by type' do
-      it 'filters records by type' do
-        bill.filter('Prenos podatkov').must_be_kind_of Enumerable
-        bill.filter('SMS sporočilo').first.number.must_equal '041580XXX'
-      end
-
-      it 'calculates cost' do
-        bill.cost('SMS sporočilo').must_equal 0
-        bill.cost('Klic v drugo mobilno omr.').must_equal 0.5013
-      end
-
-      it 'calculates exact duration' do
-        bill.duration('Klic v drugo mobilno omr.').must_equal '14:19:01'
-      end
-
-      it 'calculates billable duration' do
-        bill.billable_duration('Klic v drugo mobilno omr.').must_equal '14:37:00'
-      end
-
-      it 'calculates exact data transfer size' do
-        bill.transfers_size('Prenos podatkov').to_f('KB').must_equal 1813751.87
-      end
-
-      it 'calculates billable data transfer size' do
-        bill.billable_transfers_size('Prenos podatkov').to_f('KB').must_equal 1813880.0
-      end
-
-      it 'automagically knows whether to sum time or data' do
-        bill.exact('Prenos podatkov').to_f('KB').must_equal 1813751.87
-        bill.exact('Klic v drugo mobilno omr.').must_equal '14:19:01'
-        bill.billable('Klic v drugo mobilno omr.').must_equal '14:37:00'
-        bill.billable('Prenos podatkov').to_f('KB').must_equal 1813880.0
-      end
+    it 'returns FilteredRecords by type' do
+      bill.filtered('Prenos podatkov').must_be_kind_of FilteredRecords
+      bill.filtered('SMS sporočilo').count.must_equal 24
     end
   end
 end

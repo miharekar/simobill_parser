@@ -1,12 +1,17 @@
 require 'sinatra/base'
-require './lib/simobill_parser/bill'
 
 class Simobill < Sinatra::Base
+  configure do
+    $LOAD_PATH << "#{File.dirname(__FILE__)}/lib"
+  end
+
   configure :development do
     require 'better_errors'
     use BetterErrors::Middleware
     BetterErrors.application_root = __dir__
   end
+
+  require 'simobill_parser/bill'
 
   get '/' do
     haml :index

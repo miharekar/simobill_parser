@@ -25,6 +25,22 @@ module SimobillParser
       filter(type).inject(0){ |sum, r| sum + BigDecimal.new(r.cost) }.to_f
     end
 
+    def exact(type)
+      if filter(type).first.duration =~ /:/
+        duration(type)
+      else
+        transfers_size(type)
+      end
+    end
+
+    def billable(type)
+      if filter(type).first.duration =~ /:/
+        billable_duration(type)
+      else
+        billable_transfers_size(type)
+      end
+    end
+
     def duration(type)
       s = filter(type).inject(0) { |sum, r| sum + seconds_from_duration(r.duration) }
       Time.at(s).utc.strftime('%H:%M:%S')

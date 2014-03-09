@@ -41,6 +41,13 @@ module SimobillParser
       it 'calculates billable data transfer size' do
         bill.billable_transfers_size('Prenos podatkov').to_f('KB').must_equal 1813880.0
       end
+
+      it 'automagically knows whether to sum time or data' do
+        bill.exact('Prenos podatkov').to_f('KB').must_equal 1813751.87
+        bill.exact('Klic v drugo mobilno omr.').must_equal '14:19:01'
+        bill.billable('Klic v drugo mobilno omr.').must_equal '14:37:00'
+        bill.billable('Prenos podatkov').to_f('KB').must_equal 1813880.0
+      end
     end
   end
 end

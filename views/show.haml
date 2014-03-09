@@ -1,0 +1,16 @@
+%table
+  %thead
+    %tr
+      %th Tip
+      %th Točna količina
+      %th Obračunana količina
+      %th Kvantiteta
+      %th Cena
+  %tbody
+    - @bill.types.each do |type|
+      %tr
+        %td= type
+        %td= @bill.exact(type)
+        %td= @bill.billable(type)
+        %td= @bill.filter(type).size
+        %td= @bill.cost(type)

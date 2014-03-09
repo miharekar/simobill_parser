@@ -12,8 +12,8 @@ class Simobill < Sinatra::Base
     haml :index
   end
 
-  post '/' do
-    bill = SimobillParser::Bill.new(params['bill'][:tempfile])
-    raise bill
+  post '/show' do
+    @bill = SimobillParser::Bill.new(params['bill'][:tempfile])
+    haml :show
   end
 end

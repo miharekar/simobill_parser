@@ -1,7 +1,6 @@
-%html
-  %body
-    %h1 Naloži specifikacijo Si.mobil računa
-    %form(method="post" enctype='multipart/form-data' action='show')
-      %input(type='file' name='bill')
-      %br
-      %input(type='submit' value='Naloži!')
+%h1 Naloži specifikacijo Si.mobil računa
+%form.form-inline(method="post" enctype='multipart/form-data' action='show')
+  .form-group
+    %label{ for: 'bill' } Specifikacija
+    %input#bill{ type: 'file', name: 'bill' }
+  %button.btn.btn-primary{ type: 'submit' } Naloži

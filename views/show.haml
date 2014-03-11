@@ -1,57 +1,66 @@
-%h1 Povzetek
-%table.table.table-striped.table-hover
-  %thead
-    %tr
-      %th Tip
-      %th Količina
-      %th Seštevek
-      %th
-        Seštevek po
-        %a{ href: 'http://www.simobil.si/sl/inside.cp2?cid=6670AB92-3588-75E4-ED94-765A39879B51' } obračunskih intervalih
-      %th Cena
-  %tbody
-    - bill.filtered.each do |f|
-      %tr
-        %td= f.name
-        %td= f.count
-        %td
-          - if f.type == :data
-            = f.transfers_size.pretty
-          - elsif f.type == :phone
-            = f.duration
-        %td
-          - if f.type == :data
-            = f.billable_transfers_size.pretty
-          - elsif f.type == :phone
-            = f.billable_duration
-        %td
-          = f.cost
-          €
+- if bill.filtered.empty?
+  %h1 Žal nisem uspel prebrati specifikacije.
+  %p
+    Če si prepričan, da si naložil pravilno specifikacijo, prosim
+    = succeed "." do
+      %a{href: "https://github.com/mrfoto/simobill_parser/issues/new"} sporoči napako
+  %a.btn.btn-info{href: "/"} Nazaj
 
-%h1 Izpisek
-%table.table.table-striped.table-hover.table-condensed.sortable
-  %thead
-    %tr
-      %th{ data: { defaultsort: 'desc' } }
-        Datum
-      %th Opis
-      %th Številka
-      %th Operater
-      %th Trajanje
-      %th Cena
+- else
+  %h1 Povzetek
+  %table.table.table-striped.table-hover
+    %thead
+      %tr
+        %th Tip
+        %th Količina
+        %th Seštevek
+        %th
+          Seštevek po
+          %a{ href: 'http://www.simobil.si/sl/inside.cp2?cid=6670AB92-3588-75E4-ED94-765A39879B51' } obračunskih intervalih
+        %th Cena
     %tbody
-      - bill.records.each do |r|
+      - bill.filtered.each do |f|
         %tr
-          %td{ data: { dateformat: 'D.M. HH:mm' } }
-            = r.date.strftime('%-d.%-m %H:%M')
-          %td= r.description
-          %td= r.number
-          %td= r.provider
-          %td{ data: { value: get_duration_value(r.duration) } }
-            - if r.type == :data
-              = Filesize.from(r.duration.gsub(',', '.')).to_s('KB')
-            - else
-              = r.duration
+          %td= f.name
+          %td= f.count
           %td
-            = r.cost
+            - if f.type == :data
+              = f.transfers_size.pretty
+            - elsif f.type == :phone
+              = f.duration
+          %td
+            - if f.type == :data
+              = f.billable_transfers_size.pretty
+            - elsif f.type == :phone
+              = f.billable_duration
+          %td
+            = f.cost
             €
+
+  %h1 Izpisek
+  %table.table.table-striped.table-hover.table-condensed.sortable
+    %thead
+      %tr
+        %th{ data: { defaultsort: 'desc' } }
+          Datum
+        %th Opis
+        %th Številka
+        %th Operater
+        %th Trajanje
+        %th Cena
+      %tbody
+        - bill.records.each do |r|
+          %tr
+            %td{ data: { dateformat: 'D.M. HH:mm' } }
+              = r.date.strftime('%-d.%-m %H:%M')
+            %td= r.description
+            %td= r.number
+            %td= r.provider
+            %td{ data: { value: get_duration_value(r.duration) } }
+              - if r.type == :data
+                = Filesize.from(r.duration.gsub(',', '.')).to_s('KB')
+              - else
+                = r.duration
+            %td
+              = r.cost
+              €

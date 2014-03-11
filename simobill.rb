@@ -19,12 +19,22 @@ class Simobill < Sinatra::Base
   require 'simobill_parser/bill'
   require 'haml'
 
+  helpers do
+    def get_duration_value(duration)
+      if duration =~ /:/
+        Time.parse(duration).to_i
+      else
+        Filesize.from(duration.gsub(',', '.')).to_f('KB')
+      end
+    end
+  end
+
   get '/' do
     haml :index
   end
 
   post '/show' do
-    @bill = SimobillParser::Bill.new(params['bill'][:tempfile])
-    haml :show
+    bill = SimobillParser::Bill.new(params['bill'][:tempfile])
+    haml :show, locals: { bill: bill }
   end
 end

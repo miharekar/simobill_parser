@@ -7,6 +7,7 @@ gem 'sinatra'
 gem 'nokogiri', '~> 1.6'
 gem 'haml'
 gem 'filesize'
+gem 'unicorn'
 
 group :test, :development do
   gem 'pry'

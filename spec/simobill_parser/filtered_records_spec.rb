@@ -12,6 +12,7 @@ module SimobillParser
       filtered.must_be_kind_of Enumerable
       filtered.first.must_be_kind_of Record
       filtered.first.number.must_equal '041580XXX'
+      filtered.name.must_equal 'SMS sporočilo'
     end
 
     it 'calculates cost' do
@@ -40,6 +41,17 @@ module SimobillParser
     it 'calculates billable data transfer size' do
       filtered = FilteredRecords.new(bill.records, 'Prenos podatkov')
       filtered.billable_transfers_size.to_f('KB').must_equal 1813880.0
+    end
+
+    it 'can tell if its a data type' do
+      filtered = FilteredRecords.new(bill.records, 'Prenos podatkov')
+      filtered.type.must_equal :data
+
+      filtered = FilteredRecords.new(bill.records, 'SMS sporočilo')
+      filtered.type.must_equal :sms
+
+      filtered = FilteredRecords.new(bill.records, 'Klic v drugo mobilno omr.')
+      filtered.type.must_equal :phone
     end
   end
 end

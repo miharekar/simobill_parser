@@ -4,9 +4,11 @@ class FilteredRecords
   include Enumerable
   extend Forwardable
   def_delegators :@records, :each
+  attr_reader :name
 
-  def initialize(records, type)
-    @records = records.select{ |r| r.description == type }
+  def initialize(records, name)
+    @records = records.select{ |r| r.description == name }
+    @name = name
   end
 
   def cost
@@ -34,6 +36,16 @@ class FilteredRecords
   def billable_transfers_size
     inject(0) do |sum, r|
       sum + Filesize.from(get_billable_transfer_size(r.duration))
+    end
+  end
+
+  def type
+    if first.description =~ /SMS/
+      :sms
+    elsif first.duration =~ /:/
+      :phone
+    else
+      :data
     end
   end
 

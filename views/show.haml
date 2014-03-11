@@ -2,30 +2,30 @@
   %thead
     %tr
       %th Tip
-      %th Cena
+      %th Količina
       %th Seštevek
       %th
         Seštevek po
         %a{ href: 'http://www.simobil.si/sl/inside.cp2?cid=6670AB92-3588-75E4-ED94-765A39879B51' } obračunskih intervalih
+      %th Cena
   %tbody
     - @bill.filtered.each do |f|
       %tr
         %td= f.name
-        %td= f.cost
+        %td= f.count
         %td
           - if f.type == :data
             = f.transfers_size.pretty
           - elsif f.type == :phone
             = f.duration
-          - else
-            = f.count
         %td
           - if f.type == :data
             = f.billable_transfers_size.pretty
           - elsif f.type == :phone
             = f.billable_duration
-          - else
-            = f.count
+        %td
+          = f.cost
+          €
 
 %table
   %thead

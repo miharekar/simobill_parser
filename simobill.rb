@@ -17,6 +17,7 @@ class Simobill < Sinatra::Base
   end
 
   require 'simobill_parser/bill'
+  require 'haml'
 
   get '/' do
     haml :index

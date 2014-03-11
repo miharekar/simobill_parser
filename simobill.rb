@@ -9,6 +9,7 @@ class Simobill < Sinatra::Base
     require 'better_errors'
     use BetterErrors::Middleware
     BetterErrors.application_root = __dir__
+    BetterErrors.use_pry!
   end
 
   require 'simobill_parser/bill'

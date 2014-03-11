@@ -17,8 +17,8 @@ module SimobillParser
       records.map(&:description).uniq
     end
 
-    def filtered(type)
-      FilteredRecords.new(records, type)
+    def filtered
+      types.map{ |t| FilteredRecords.new(records, t) }
     end
 
     private

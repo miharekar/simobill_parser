@@ -26,3 +26,24 @@
             = f.billable_duration
           - else
             = f.count
+
+%table
+  %thead
+    %tr
+      %th Datum
+      %th Opis
+      %th Številka
+      %th Operater
+      %th Trajanje
+      %th Cena
+    %tbody
+      - @bill.records.each do |r|
+        %tr
+          %td= r.date.strftime('%-d.%-m %H:%M')
+          %td= r.description
+          %td= r.number
+          %td= r.provider
+          %td= r.duration
+          %td
+            = r.cost
+            €

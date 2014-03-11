@@ -7,7 +7,9 @@ gem 'sinatra'
 gem 'nokogiri', '~> 1.6'
 gem 'haml'
 gem 'filesize'
+
 gem 'unicorn'
+gem 'newrelic_rpm'
 
 group :test, :development do
   gem 'pry'

@@ -12,6 +12,10 @@ class Simobill < Sinatra::Base
     BetterErrors.use_pry!
   end
 
+  configure :production do
+    require 'newrelic_rpm'
+  end
+
   require 'simobill_parser/bill'
 
   get '/' do

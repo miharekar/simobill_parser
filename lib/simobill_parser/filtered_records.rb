@@ -40,13 +40,7 @@ class FilteredRecords
   end
 
   def type
-    if first.description =~ /SMS/
-      :sms
-    elsif first.duration =~ /:/
-      :phone
-    else
-      :data
-    end
+    first.type
   end
 
   private

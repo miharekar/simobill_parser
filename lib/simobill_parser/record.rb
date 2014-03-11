@@ -27,6 +27,10 @@ class Record
     @cost ||= value_for('EUR')
   end
 
+  def type
+    @type ||= parse_type
+  end
+
   private
   def value_for(property)
     @data.at_xpath(property).content
@@ -36,5 +40,15 @@ class Record
     date = value_for('Datum').split('.').map(&:to_i)
     time = value_for('Ura').split(':').map(&:to_i)
     DateTime.new(0, date[1], date[0], time[0], time[1])
+  end
+
+  def parse_type
+    if description =~ /SMS/
+      :sms
+    elsif duration =~ /:/
+      :phone
+    else
+      :data
+    end
   end
 end

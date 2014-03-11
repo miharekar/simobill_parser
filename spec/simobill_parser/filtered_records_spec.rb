@@ -43,7 +43,7 @@ module SimobillParser
       filtered.billable_transfers_size.to_f('KB').must_equal 1813880.0
     end
 
-    it 'can tell if its a data type' do
+    it 'can tell what type are its records' do
       filtered = FilteredRecords.new(bill.records, 'Prenos podatkov')
       filtered.type.must_equal :data
 

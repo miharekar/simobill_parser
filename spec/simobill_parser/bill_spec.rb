@@ -17,7 +17,7 @@ module SimobillParser
 
     it 'returns FilteredRecords by type' do
       bill.filtered.first.must_be_kind_of FilteredRecords
-      bill.filtered.find{ |f| f.type == 'SMS sporočilo' }.count.must_equal 24
+      bill.filtered.find{ |f| f.name == 'SMS sporočilo' }.count.must_equal 24
     end
   end
 end

@@ -3,6 +3,7 @@ require 'sinatra/base'
 class Simobill < Sinatra::Base
   configure do
     $LOAD_PATH << "#{File.dirname(__FILE__)}/lib"
+    $LOAD_PATH << "#{File.dirname(__FILE__)}/helpers"
   end
 
   configure :development do
@@ -17,17 +18,10 @@ class Simobill < Sinatra::Base
   end
 
   require 'simobill_parser/bill'
+  require 'simobill_helper'
   require 'haml'
 
-  helpers do
-    def get_duration_value(duration)
-      if duration =~ /:/
-        Time.parse(duration).to_i
-      else
-        Filesize.from(duration.gsub(',', '.')).to_f('KB')
-      end
-    end
-  end
+  helpers SimobillHelper
 
   get '/' do
     haml :index

@@ -58,7 +58,7 @@
             %td= r.provider
             %td{ data: { value: get_duration_value(r.duration) } }
               - if r.type == :data
-                = Filesize.from(r.duration.gsub(',', '.')).to_s('KB')
+                = Filesize.from(r.duration.gsub(',', '.')).to_s('MB')
               - else
                 = r.duration
             %td
